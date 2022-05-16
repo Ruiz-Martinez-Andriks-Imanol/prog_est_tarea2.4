@@ -1,24 +1,24 @@
-/* Autor: Andriks Imanol Ruiz Mart韓ez, Realizado: 16/02/2022 
+/* Autor: Andriks Imanol Ruiz Mart铆nez, Realizado: 16/02/2022 
 Escuela: Universidad del Valle de Mexico Campus Villahermosa
-Materia: Programaci髇 Estructrada
+Materia: Programaci贸n Estructurada
 Ciclo: 01/2022
 
-Este es un programa de condicionales en Lenguaje C de la materia de Programaci髇 Estructurada
+Este es un programa de condicionales en Lenguaje C de la materia de Programaci贸n Estructurada
 Muestra el uso de:
   
     -Variables flotantes y enteras</li>
     -printf para mostrar mensajes y variables
     -scanf
-    -El uso de include para las librer韆s
+    -El uso de include para las librer铆as
     -Libreria math.h
     -Condicionales
-    -Espaciado \t y el salto de rengl髇 \n
-    -Comentarios para la documentaci髇 interna del programa
+    -Espaciado \t y el salto de rengl贸n \n
+    -Comentarios para la documentaci贸n interna del programa
 	*/
 #include<stdio.h>
 #include<math.h>
 int main() {
-	//Declaraci髇
+	//Declaraci贸n
 	int genero;
 	float peso, muneca, cintura, cadera, antebrazo, B, GC, Porcentaje=0, A1, A2, A3, A4, A5;
 	//Entrada de datos
@@ -28,7 +28,7 @@ int main() {
 if (genero==1) { //Condicionales
 	printf("\t \Introduce el Peso: \n");	
 	scanf("%f", &peso);
-	printf("\t \Introduce la medida de la mu馿ca: \n");	
+	printf("\t \Introduce la medida de la mu帽eca: \n");	
 	scanf("%f", &muneca);
 	printf("\t \Introduce la medida de la cintura: \n");	
 	scanf("%f", &cintura);
@@ -49,7 +49,7 @@ if (genero==1) { //Condicionales
 else if (genero==2) {
 	printf("\t \Introduce el Peso: \n");	
 	scanf("%f", &peso);
-	printf("\t \Introduce la medida de la mu馿ca: \n");	
+	printf("\t \Introduce la medida de la mu帽eca: \n");	
 	scanf("%f", &muneca);
 	A1= (peso*1.082)+94.42;
 	A2= muneca/4.15;
